@@ -1,4 +1,4 @@
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function() {
   var submitButton = document.getElementById('submit');
   var container = document.getElementById('container');
 
