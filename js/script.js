@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('load', function() {
   var submitButton = document.getElementById('submit');
   var container = document.getElementById('container');
 
@@ -60,4 +60,4 @@ window.onload = function() {
       this.form.reset();
     }
   });
-};
+});
