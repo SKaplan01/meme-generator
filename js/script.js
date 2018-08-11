@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', function() {
   var submitButton = document.getElementById('submit');
   var container = document.getElementById('container');
 
@@ -60,4 +60,4 @@ document.addEventListener("DOMContentLoaded", function() {
       this.form.reset();
     }
   });
-};
+});
