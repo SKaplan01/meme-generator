@@ -1,8 +1,9 @@
 window.addEventListener('load', function() {
-  var submitButton = document.getElementById('submit');
+  var submitForm = document.querySelector('form');
   var container = document.getElementById('container');
 
-  submitButton.addEventListener('click', function() {
+  submitForm.addEventListener('submit', function(event) {
+    event.preventDefault();
     var imageUrl = document.getElementById('image').value;
     if (imageUrl === '') {
       alert('Please enter the URL for an image');
