@@ -58,7 +58,7 @@ window.addEventListener('load', function() {
         });
       }
 
-      this.form.reset();
+      submitForm.reset();
     }
   });
 });
